@@ -7,4 +7,6 @@ mongoose.connect(process.env.MONGODB_URI || 'mongodb://localhost/mernshopping', 
   useFindAndModify: false
 });
 
+
+
 module.exports = mongoose.connection;
